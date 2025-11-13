@@ -13,6 +13,7 @@ Este proyecto permite practicar programación orientada a objetos, manejo de cla
 - Control de condiciones para victoria, derrota o empate
 
 # Estructura del proyecto
+```bash
 /
 ├── .devcontainer/          # Configuración del entorno de desarrollo
 ├── .vscode/                # Configuración del editor VS Code
@@ -25,14 +26,18 @@ Este proyecto permite practicar programación orientada a objetos, manejo de cla
 ├── Juego.h/.cpp            # Clase Juego que organiza la ejecucion
 ├── main.cpp                # Punto de entrada del programa
 └── README.md               # Este archivo
+```
 
 # Como compilar
 1. Debes tener instalado un compilador de C++, en el proyecto se uso g++
 2. Desde la carpeta raiz ejecuta:
+```bash
   g++ -std=c++17 -o blackjack main.cpp Carta.cpp Mazo.cpp Mano.cpp Jugador.cpp Crupier.cpp Juego.cpp
+```
 Ejecuta el programa:
+```bash
   ./blackjack
-
+```
 # Autor
  Juan Pablo Lozano Restrepo - 2521505-2724 Tecnologia en Desarrollo de Software
  
