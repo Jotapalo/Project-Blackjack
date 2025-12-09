@@ -16,16 +16,16 @@ void Jugador::pedirCarta(Mazo& mazo) {
     mano.agregarCarta(mazo.repartirCarta());
 }
 
-void Jugador::plantarse() {
-    cout << nombre << " se planta con " << mano.valorTotal() << " puntos.\n";
+string Jugador::plantarse(){
+    return nombre + " se planta con " + to_string(mano.valorTotal()) + " puntos.\n";
 }
 
 int Jugador::calcularValorMano() {
     return mano.valorTotal();
 }
 
-void Jugador::mostrarMano() const {
-    cout << mano.mostrarMano();
+string Jugador::obtenerMano() const {
+    return mano.mostrarMano();
 }
 
 float Jugador::obtenerApuesta() {
