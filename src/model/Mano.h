@@ -1,5 +1,5 @@
 // Mano.h - CRC
-// Responsabilidad: Calcular el valor de la mano y verificar Blackjack.
+// Responsabilidad: Mantener cartas del jugador/crupier; permitir agregar una carta; calcular puntaje de la mano; entregar lista de cartas.
 // Colaboración: Usa objetos Carta. Es utilizada por Jugador y Crupier.
 
 #ifndef MANO_H

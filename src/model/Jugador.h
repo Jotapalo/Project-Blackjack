@@ -1,5 +1,5 @@
 // Jugador.h - CRC
-// Responsabilidad: Representar al jugador, gestionar su mano y decisiones.
+// Responsabilidad: Representar al jugador, nombre, apuesta, mano; recibir cartas; obtener puntaje de su mano; entregar su mano.
 // Colaboración: Usa Mano, solicita cartas al Mazo y participa en el Juego.
 
 #ifndef JUGADOR_H

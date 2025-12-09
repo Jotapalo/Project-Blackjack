@@ -1,5 +1,5 @@
 // Carta.h - CRC
-// Responsabilidad: Representar una carta del mazo con su valor y nombre.
+// Responsabilidad: Representar una carta (valor, palo); devolver su valor/palo como dato.
 // Colaboración: Utilizada por Mazo y Mano.
 
 #ifndef CARTA_H

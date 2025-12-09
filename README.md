@@ -12,31 +12,44 @@ Este proyecto permite practicar programación orientada a objetos, manejo de cla
 - Sistema de turnos
 - Control de condiciones para victoria, derrota o empate
 
-# Estructura del proyecto
-```bash
-/
-├── .devcontainer/          # Configuración del entorno de desarrollo
-├── .vscode/                # Configuración del editor VS Code
-├── Documentos/             # Material complementario del curso
-├── Carta.h/.cpp            # Clase Carta
-├── Mazo.h/.cpp             # Clase Mazo de cartas
-├── Mano.h/.cpp             # Clase Mano
-├── Jugador.h/.cpp          # Clase Jugador
-├── Crupier.h/.cpp          # Clase Crupier
-├── Juego.h/.cpp            # Clase Juego que organiza la ejecucion
-├── main.cpp                # Punto de entrada del programa
-└── README.md               # Este archivo
+/ (raíz del repo)
+│
+├── .devcontainer/        # Entorno de desarrollo (opcional)
+├── .vscode/              # Configuración del editor (opcional)
+└── src/                  # Código fuente
+     ├── model/           # Clases del modelo (lógica del juego)
+     │    ├── Carta.h / Carta.cpp
+     │    ├── Mazo.h / Mazo.cpp
+     │    ├── Mano.h / Mano.cpp
+     │    ├── Jugador.h / Jugador.cpp
+     │    ├── Crupier.h / Crupier.cpp
+     │    └── Juego.h / Juego.cpp
+     │
+     ├── view/            # Clases de vista / interfaz (consola)
+     │    ├── ConsoleView.h / ConsoleView.cpp
+     │
+     ├── controller/      # Controlador central que coordina todo
+     │    ├── JuegoController.h / JuegoController.cpp
+     │
+     └── main.cpp         # Punto de entrada: inicia el controlador
 ```
 
-# Como compilar
-1. Debes tener instalado un compilador de C++, en el proyecto se uso g++
-2. Desde la carpeta raiz ejecuta:
+## 🛠 Cómo compilar
+
+Desde la raíz del proyecto, ejecuta:
+
 ```bash
-  g++ -std=c++17 -o blackjack main.cpp Carta.cpp Mazo.cpp Mano.cpp Jugador.cpp Crupier.cpp Juego.cpp
+g++ -std=c++17 -I./src -Wall -o blackjack \
+    src/model/*.cpp \
+    src/view/*.cpp \
+    src/controller/*.cpp \
+    src/main.cpp
 ```
-Ejecuta el programa:
+
+Luego, para ejecutar:
+
 ```bash
-  ./blackjack
+./blackjack
 ```
 # Autor
  Juan Pablo Lozano Restrepo - 2521505-2724 Tecnologia en Desarrollo de Software

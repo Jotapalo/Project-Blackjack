@@ -1,3 +1,8 @@
+// ConsoleView.h - CRC
+// Responsabilidad: Mostrar al usuario: bienvenida, mensajes, menús, mano del jugador, mano del crupier, resultados;
+// pedir datos del usuario (nombre, apuesta, opciones).
+// Colaboración: colabora con JuegoController enviando y recibiendo información de E/S.
+
 #ifndef CONSOLEVIEW_H
 #define CONSOLEVIEW_H
 

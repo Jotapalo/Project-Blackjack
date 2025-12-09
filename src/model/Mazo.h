@@ -1,5 +1,5 @@
 // Mazo.h - CRC
-// Responsabilidad: Administrar la baraja de cartas y proveer cartas al juego.
+// Responsabilidad: Contener conjunto de cartas; mezclarlas; sacar una carta.
 // Colaboración: Contiene objetos de tipo Carta. Interactúa con Jugador y Crupier.
 
 #ifndef MAZO_H

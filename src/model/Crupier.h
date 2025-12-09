@@ -1,5 +1,5 @@
 // Crupier.h - CRC
-// Responsabilidad: Representar al crupier y ejecutar su turno automáticamente.
+// Responsabilidad: Representar la mano del crupier; recibir cartas; reglas de turno del crupier; mano propia.
 // Colaboración: Usa Mano, solicita cartas al Mazo y colabora con el Juego.
 
 #ifndef CRUPIER_H

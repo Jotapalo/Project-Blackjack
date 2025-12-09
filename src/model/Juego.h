@@ -1,6 +1,9 @@
 // Juego.h - CRC
-// Responsabilidad: Coordinar el desarrollo del juego y determinar el resultado.
-// Colaboración: Usa Mazo, Jugador, Crupier y Mano para gestionar la partida.
+// Responsabilidades: Contener estado del juego: mazo, jugador, crupier; 
+// iniciar nueva partida (barajar mazo, repartir cartas iniciales); 
+// permitir acciones: pedir carta jugador, turno crupier; 
+// determinar ganador o resultado de la ronda; devolver información del estado (manos, puntajes).
+// Colaboración: Usa Mazo, Jugador, Crupier, Carta y Mano para gestionar la partida.
 
 #ifndef JUEGO_H
 #define JUEGO_H
