@@ -33,6 +33,8 @@ public:
     void BarajarMazo();
     string crupierPrimeraCarta();
     string jugadorPlantarse();
+    int CantidadCartasJugador();
+    int CantidadCartasCrupier();
 };
 
 #endif // JUEGO_H

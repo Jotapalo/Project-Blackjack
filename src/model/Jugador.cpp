@@ -39,3 +39,7 @@ void Jugador::limpiarMano() {
 void Jugador::agregarCarta(Carta carta) {
     mano.agregarCarta(carta);
 }
+
+string Jugador::obtenerNombre() const {
+    return nombre;
+}

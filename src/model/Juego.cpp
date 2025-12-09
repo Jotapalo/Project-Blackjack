@@ -113,3 +113,11 @@ tuple<int, int, string> Juego::determinarGanador() {
 string Juego::jugadorPlantarse() {
     return jugador.plantarse();
 }
+
+int Juego::CantidadCartasJugador() {
+    return jugador.getMano().size();
+}
+
+int Juego::CantidadCartasCrupier() {
+    return crupier.getMano().size();
+}

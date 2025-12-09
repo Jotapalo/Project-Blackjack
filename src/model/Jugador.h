@@ -24,6 +24,8 @@ public:
     float obtenerApuesta();
     void agregarCarta(Carta carta);
     void limpiarMano();
+    string obtenerNombre() const;
+    Mano getMano() const { return mano; }
 };
 
 #endif // JUGADOR_H

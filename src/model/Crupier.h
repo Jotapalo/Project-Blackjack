@@ -21,6 +21,7 @@ public:
     void limpiarMano();
     string mostrarMano();
     void ObtenerMano();
+    Mano getMano() const { return mano; }
 };
 
 #endif // CRUPIER_H
