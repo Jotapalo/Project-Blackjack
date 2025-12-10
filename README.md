@@ -11,7 +11,8 @@ Este proyecto permite practicar programación orientada a objetos, manejo de cla
 - Interfaz simple
 - Sistema de turnos
 - Control de condiciones para victoria, derrota o empate
-
+  
+```bash
 / (raíz del repo)
 │
 ├── .devcontainer/        # Entorno de desarrollo (opcional)
@@ -51,6 +52,21 @@ Luego, para ejecutar:
 ```bash
 ./blackjack
 ```
+
+## Pruebas Unitarias usando google test
+
+Para las pruebas ya existe un ./test_model.
+
+El siguiente comando ejecuta la prueba unitaria:
+
+```bash
+g++ -std=c++17 -I./src -I/usr/include/gtest -pthread \
+    test/test_model.cpp \
+    src/model/*.cpp \
+    -lgtest -lgtest_main -o test_model
+./test_model
+```
 # Autor
  Juan Pablo Lozano Restrepo - 2521505-2724 Tecnologia en Desarrollo de Software
  
+
