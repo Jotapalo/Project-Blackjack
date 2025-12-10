@@ -35,7 +35,7 @@ Este proyecto permite practicar programación orientada a objetos, manejo de cla
      └── main.cpp         # Punto de entrada: inicia el controlador
 ```
 
-## 🛠 Cómo compilar
+## Cómo compilar
 
 Desde la raíz del proyecto, ejecuta:
 
@@ -69,4 +69,5 @@ g++ -std=c++17 -I./src -I/usr/include/gtest -pthread \
 # Autor
  Juan Pablo Lozano Restrepo - 2521505-2724 Tecnologia en Desarrollo de Software
  
+
 
