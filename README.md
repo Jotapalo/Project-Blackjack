@@ -66,6 +66,14 @@ g++ -std=c++17 -I./src -I/usr/include/gtest -pthread \
     -lgtest -lgtest_main -o test_model
 ./test_model
 ```
+
+## Abrir el diagrama de clases
+
+Para abrir el diagrama de clases en el formato .drawio, ingresar al enlace :
+```bash
+https://app.diagrams.net/
+```
+y abrir el archivo "UML projectBlackJackFinal.drawio" desde la pagina.
 # Autor
  Juan Pablo Lozano Restrepo - 2521505-2724 Tecnologia en Desarrollo de Software
  
